@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "azure-container-registry-init"
+version = "0.1.0"
+description = "Render variables with j2 template to create terraform configuration files"
+authors = ["githubofkrishnadhas <krishnadhasnk1997@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Jinja2 = "=3.1.5"
+azure-identity = "=1.18.0"
+azure-keyvault-secrets = "=4.8.0"
+argparse = "=1.4.0"
+python-dotenv = "=1.0.1"
+azure-mgmt-resource = "=23.1.1"
+azure-mgmt-resourcegraph = "=8.0.0"
+requests = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+

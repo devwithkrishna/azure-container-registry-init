@@ -1,0 +1,12 @@
+{
+    "georeplications": [
+        {
+            "location": "northerneurope",
+            "zone_redundancy_enabled": "trued"
+        },
+        {
+            "location": "eastus2",
+            "zone_redundancy_enabled": "trued"
+        }
+    ]
+}
